@@ -1,4 +1,5 @@
-trigger: none  # No CI builds, only PR builds
+trigger:
+- jr/poc
 
 resources:
   containers:
